@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /****************************
  * 共通CSSのテンプレートです。
@@ -78,7 +79,8 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  background-color: #006837;
+  background-color: #00bfff
+;
   color: #fff;
   width: 287px;
   height: 55px;
@@ -175,7 +177,7 @@ button {
   content: '';
   width: calc(100% - 60px);
   height: 7px;
-  background-color: #fcee21;
+  background-color: #87cefa;
   position: absolute;
   top: -10px;
   left: 30px;
@@ -239,15 +241,14 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #39b54a;
+  background-color: #d4cba9;
 }
 
 .bg-color--subcolor {
-  background-color: #d9e021;
 }
 
 .bg-color--gray {
-  background-color: #e6e6e6;
+  background-color: #d4cba9 ;
 }
 
 /*********************
@@ -274,7 +275,7 @@ button {
   line-height: 1.75;
   text-align: center;
   padding: 9px 20px;
-  background-color: #d9e021;
+  background-color: 色;
   margin: 0 -20px 20px -20px;
 }
 
@@ -284,20 +285,21 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: #8cc63f;
+  background-color:#d4cba9;
 }
 
 .section-title--keycolorlight .section-title__stage {
-  color: #fff;
+  color: #000;
 }
 
 .section-title--keycolor {
-  background-color: #39b54a;
+  background-color: #87cefa;
 }
 
 .section-title--story {
   width: 330px;
   margin: 0 auto 20px;
+  color: #fff;
 }
 
 .section-title--border {
@@ -307,7 +309,7 @@ button {
   line-height: 1.06667;
   margin: 0;
   padding-bottom: 15px;
-  color: #006837;
+  color: #000;
 }
 
 .section-title--border::after {
@@ -336,7 +338,7 @@ button {
   display: block;
   text-decoration: none;
   cursor: pointer;
-  background-color: #006837;
+  background-color: #87cefa;
   color: #fff;
   font-size: 24px;
   line-height: 1.54167;
@@ -441,7 +443,7 @@ button {
 }
 
 .err-message {
-  color: #c1272d;
+  color: #000;
   font-size: 18px;
   text-align: center;
 }
@@ -450,10 +452,11 @@ button {
   text-align: center;
   display: block;
   margin-top: 20px;
+  color: #000;
 }
 
 .clear-message {
-  background-color: #d9e021;
+  background-color: #fff;
   padding: 30px 30px 60px;
   position: relative;
 }
@@ -462,7 +465,7 @@ button {
   position: relative;
   display: block;
   text-align: center;
-  color: #006837;
+  color: #000;
   font-size: 30px;
   padding-bottom: 10px;
   margin-bottom: 35px;
